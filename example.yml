@@ -1,6 +1,7 @@
 ---
 - name: updating web servers
   hosts: web
+  
   tasks: 
   - name: ensure creating web directory
       file: 
