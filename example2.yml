@@ -1,0 +1,11 @@
+---		
+ - name: web servers installation		
+   hosts: web		
+   become: yes		
+		
+   tasks:		
+   - name: Ensure http is installed		
+     yum:		
+       name: git		
+       state: installed		
+...
