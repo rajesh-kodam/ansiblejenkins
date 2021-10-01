@@ -1,8 +1,8 @@
 ---		
  - name: web servers installation		
    hosts: web		
-   become: yes		
-		
+   become: yes				
+   
    tasks:		
    - name: Ensure http is installed		
      yum:		
