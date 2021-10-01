@@ -4,7 +4,7 @@
   
   tasks: 
   - name: ensure creating web directory
-      file: 
-        path: /home/centos/webdir
-        state: directory
+    file: 
+      path: /home/centos/webdir
+      state: directory
 ...
